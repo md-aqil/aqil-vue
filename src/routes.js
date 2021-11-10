@@ -1,13 +1,14 @@
-import {createRouter, createWebHistory} from 'vue-router'
+import VueRouter from 'vue-router'
+import Login from "./components/Login";
+import About from "./components/About";
 
 
-const routes = []
+const routes = [
+    { path: '/', component: Login },
+    { path: '/about', component: About }
+]
   
-const Router = createRouter({
-
-    history:createWebHistory(),
-
+export default new VueRouter({
+    mode: 'history',
     routes
-})
-
-export default Router
+});
