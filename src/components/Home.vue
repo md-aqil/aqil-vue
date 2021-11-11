@@ -82,7 +82,7 @@ tr:nth-child(odd) {
     background: #f0f0f0;
 }
 .title {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
     text-align: center;
 }
 </style>

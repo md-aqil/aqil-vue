@@ -1,3 +1,5 @@
-modules.exports = {
+
+
+module.exports = {
     publicPath: '/vue-pro/'
-}
+  }
