@@ -18,13 +18,17 @@ export default {
 
 
 <style>
-#app {
+body {
+  margin: 0;
+  padding: 0;
   font-family: Avenir, Helvetica, Arial, sans-serif;
+
+}
+#app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 * {
     box-sizing: border-box;
@@ -55,7 +59,11 @@ export default {
         background: rebeccapurple;
         border:none;
         border-radius: 5px;
+        cursor: pointer;
     }
+     button:focus {
+       box-shadow: inset 3px 5px 8px #5e5e5edd;
+     }
     h1 {
         margin-top: 0;
     }
