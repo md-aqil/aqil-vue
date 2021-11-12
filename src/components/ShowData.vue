@@ -38,7 +38,7 @@ export default {
 
  async mounted() {
      let result = await axios.get("http://localhost:3000/users");
-     this.list = result.data
+     this.list = result.data;
   },
 }
 </script>
